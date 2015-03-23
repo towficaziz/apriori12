@@ -1,0 +1,180 @@
+/* CSS Document */
+
+    	body {
+			font:12px/20px Arial, sans-serif;
+			background: #e6f3fa;
+			border:0;
+			margin:20px;
+		}
+		h1, h2, h3{
+			padding:0;
+			margin:0;	
+		}
+		
+		ul{
+			margin:0;
+			padding:0;
+			list-style:none;	
+		}
+		ul li{
+			margin:0;
+			padding:0;
+			list-style:none;	
+		}
+/*********TAGS ********/
+#adminTabWrapper{
+	margin:0 auto;
+	padding:0;
+	width:800px;
+	overflow: auto;
+	border: 1px dotted #CCC;
+}
+#adminTabHeader{
+	height:150px;	
+	margin-bottom:20px;
+	border:1px solid #ECE7DD;
+}
+#menuTop{
+	height:50px;
+	margin: 50px 20px 0 20px;
+	padding:0;
+	text-align:right;	
+}
+#menuTop ul{
+	margin: 0;
+	padding:0;
+	display:inline;
+	list-style:none;
+}
+#menuTop ul li{
+	margin: 0;
+	padding:0;
+	display:inline;
+	margin-right: 20px;
+}
+#menuTop ul li a{
+	margin: 0;
+	padding:0;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+}
+#menuTop ul li a:hover{
+	color:#669;
+}
+
+/******* /CONTAINER *******/
+/******* FORM *******/
+#customForm{
+	padding: 0 10px 10px;
+}
+#customForm label{
+	margin-right:40px;
+	color: #404040;
+    float: left;
+    font-size: 13px;
+    line-height: 18px;
+    padding-top: 6px;
+    text-align: right;
+    width: 160px;
+}
+label .messageBox{
+	display:block;	
+}
+label, input, select, textarea {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: normal;
+}
+input, textarea, select {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #808080;
+    display: inline-block;
+    font-size: 13px;
+    height: 18px;
+    line-height: 18px;
+    padding: 4px;
+    width: 210px;
+}
+select{
+	height: 30px;
+    line-height: 22px;
+}
+#customForm input{
+	width: 220px;
+	padding: 6px;
+	color: #949494;
+	border: 1px solid #cecece;
+}
+#customForm select{
+	width: 220px;
+	padding: 6px;
+	color: #949494;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #cecece;
+}
+#customForm input.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+#customForm textarea{
+	width: 550px;
+	height: 80px;
+	padding: 6px;
+	color: #adaeae;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+#customForm textarea.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+#customForm div{
+	margin-bottom: 15px;
+}
+#customForm div span{
+/*	margin-left: 10px;*/
+	color: #b1b1b1;
+	font-size: 8px;
+	font-style: italic;
+}
+#customForm div span.error{
+	color: #e46c6e;
+}
+#customForm #send{
+	background: #6f9ff1;
+	color: #fff;
+	font-weight: 700;
+	font-style: normal;
+	border: 0;
+	cursor: pointer;
+}
+#customForm #send:hover{
+	background: #79a7f1;
+}
+#error{
+	margin-bottom: 20px;
+	border: 1px solid #efefef;
+}
+#error ul{
+	list-style: square;
+	padding: 5px;
+	font-size: 11px;
+}
+#error ul li{
+	list-style-position: inside;
+	line-height: 1.6em;
+}
+#error ul li strong{
+	color: #e46c6d;
+}
+#error.valid ul li strong{
+	color: #93d72e;
+}
+/******* /FORM *******/

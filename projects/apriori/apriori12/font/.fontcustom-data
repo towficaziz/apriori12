@@ -1,0 +1,21 @@
+{
+  "fonts": [
+    "iconvault_50001d137e08f17db94c8f5b8862c9ab.ttf",
+    "iconvault_50001d137e08f17db94c8f5b8862c9ab.woff",
+    "iconvault_50001d137e08f17db94c8f5b8862c9ab.eot",
+    "iconvault_50001d137e08f17db94c8f5b8862c9ab.svg"
+  ],
+  "templates": [
+    "iconvault-preview.html",
+    "iconvault-preview.css"
+  ],
+  "file_name": "iconvault_50001d137e08f17db94c8f5b8862c9ab",
+  "glyphs": [
+    "translation",
+    "cg",
+    "interpretation",
+    "medical",
+    "design",
+    "web"
+  ]
+}

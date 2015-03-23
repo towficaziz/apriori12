@@ -1,0 +1,204 @@
+/* CSS Document */
+body {
+    background: url(../images/body_bg.jpg) repeat-x scroll 0 0 #430103;
+    color: #000;
+    font-family: "Helvetica";
+    font-size: 12px;
+
+	line-height:1.4;
+	margin:0; padding:0;
+}
+
+* {
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+
+
+/* ------ tag area-------*/
+#wrapper{
+			width: 959px; margin: 0 auto; height:auto; min-height: 600px; padding:0; overflow:auto;  z-index:-1; overflow:hidden;
+		}
+#topMenu{
+			height: 40px;
+		}
+#topMenu ul{
+			margin:0; padding:0; display:inline-block;
+		}
+#topMenu ul li{
+			margin:0; padding:0; display:inline-block; list-style:none; padding: 10px; font-family:helvetica; background:#760403;
+		}
+#topMenu ul li:hover, #topMenu ul li.active{
+			margin:0; padding:0; display:inline-block; list-style:none; padding: 10px; font-family:helvetica; background:#C96;
+		}				
+#topMenu ul li a{
+			margin:0; padding:0; display:inline-block; list-style:none;  font-family:helvetica; font-size: 14px; color:#FFF; text-decoration:none; font-weight:bold;
+		}	
+#siteBanner{
+			height:207px;
+			background: url(../images/site_banner.jpg) no-repeat top left; margin: 0 auto;	
+}
+#siteBanner .logo{
+			width:717px; margin:0 auto;	
+}
+#siteBanner .logo img{
+			padding:0; border:none; margin:0 auto;	
+}		
+#siteBanner .bannerImage {
+    background: url("../images/money.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 84px;
+    margin-left: 410px;
+    width: 120px;
+}
+#siteBanner .searchFld{
+			padding:0; border:none; margin:0 auto;	float:right;
+}
+.siteMCimages{
+	margin-top:15px;
+	width:461px;
+}
+.siteMCimages h2{
+	margin:0;
+	padding:0;
+	margin-bottom: 10px;
+	color:#F93;	
+}
+.siteMCimages img{
+	float:left;
+	margin:0;
+	margin-top:5px;
+	padding:0;
+}
+#templatemo_search { 
+	float: right; 
+	width: 220px; 
+	margin-right: 15px;
+	background: url(../images/templatemo_search.png) no-repeat; 
+	margin-top:5px;
+}
+
+#templatemo_search form {
+	margin: 0;
+	padding: 0;
+}
+
+
+#templatemo_search .txt_field {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid;
+    color: #999999;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-variant: normal;
+    height: 33px;
+    line-height: 32px;
+    margin-top: 16px;
+    padding: 0 10px;
+    width: 179px;
+	color:#FFF;
+	border-radius: 5px;
+}
+#templatemo_search .sub_btn {
+	float: right;
+	display: block;
+ 	height: 34px;
+	cursor: pointer;
+	border: none;
+	background: none;
+	margin-right: 21px;
+    margin-top: -34px;
+    width: 35px;
+}
+#siteMarqueResult{
+	height: 40px;
+	width: 950px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 5px;
+	background:#9f0507;
+}
+#siteMarqueResult h2{
+	margin: 0 ; padding:0; font-family:Tahoma, Geneva, sans-serif; font-size: 18px; color:#F33; padding-top: 5px;
+}
+#siteMarqueResult h2 marquee{
+	margin: 0 ; padding:0; 
+}
+
+#siteMainContent{min-height:600px; margin-top:10px; position:relative;}
+
+#siteMCLeft{ width:216px; background:#780202; height:920px; border-radius: 10px; float:left; margin-right: 21px; margin-top: 20px;}
+#siteMCRight{width:216px; background:#780202; height:920px; border-radius: 10px; float:left; margin-top: 20px;}
+.siteMCsideTop{ background:url(../images/site_menu_header.jpg) no-repeat left top; height:42px; margin-left:1px;}
+.siteMCsideTop h3{
+	color: #FF3399;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 8px 0 0 20px;
+}
+.siteMCsideMid{ margin:16px; width:184px; height: 123px; border-radius: 10px; border: 1px #fbc4c4; background:#fbc4c4;}
+.siteMCsideMid h4 {
+	margin:0;
+	padding:0;
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11.5px;
+	color: #C30;	
+}
+.siteMCsideFooter{ background:url(../images/site_menu_footer.jpg) no-repeat top center; height:25px;}
+
+#siteMCMiddle{width:461px;float:left; margin-right: 21px; }
+#siteMCMiddle .siteMCSlide{
+	width:461px;
+	padding: 0;
+	height: 300px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#siteMCMiddle .siteMCtext{overflow:hidden; border:1px dotted #FFF;}
+#siteMCMiddle .siteMCtext p{
+	padding: 10px;
+	padding-bottom:0;
+	margin:0;
+	color: #FFF;
+	font-size:12px;
+	font:helvetica;
+}
+#siteFooter{ height:100px; }
+#siteFooter .footerLeft{ height:95px; background: #780202; border-radius: 10px; width: 275px; margin:10px; margin-left: 0; float:left;}
+#siteFooter .footerRight{ 
+	height:95px;  width: 650px; margin:10px 18px 10px 0; float:right;
+	border-radius: 10px; background: #780202;
+
+}
+#siteFooter .footerRight .left {
+    float: left;
+    height: 58px;
+    margin: 3px 10px 10px 20px;
+    width: 300px;
+}
+
+#siteFooter .footerRight .right{ 
+	float: left;
+    height: 58px;
+    margin: 3px 10px 10px 10px;
+    width: 300px;
+
+}
+
+#siteFooter .footerRight .left h3 ,#siteFooter .footerRight .right h3 {
+    margin:0;
+	padding:0;
+	color: #F69;
+	
+}
+#siteFooter .footerRight .left p ,#siteFooter .footerRight .right p {
+    margin:0;
+	padding:0;
+	color: #FF9 ;
+	
+}

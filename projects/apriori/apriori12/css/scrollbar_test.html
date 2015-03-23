@@ -1,0 +1,43 @@
+<!--
+@-moz-document url-prefix(http://),url-prefix(https://) {
+scrollbar {
+   -moz-appearance: none !important;
+   background: rgb(0,255,0) !important;
+}
+thumb,scrollbarbutton {
+   -moz-appearance: none !important;
+   background-color: rgb(0,0,255) !important;
+}
+
+thumb:hover,scrollbarbutton:hover {
+   -moz-appearance: none !important;
+   background-color: rgb(255,0,0) !important;
+}
+
+scrollbarbutton {
+   display: none !important;
+}
+
+scrollbar[orient="horzontal"] {
+  min-width: 15px !important;
+}
+}
+-->
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>scrollbar-3dlight-color</title>
+  <style>
+    .Blue3dLight {
+      -ms-scrollbar-3dlight-color: blue;
+      scrollbar-3dlight-color: blue; /* Use the standard when available. */
+    }
+  </style>
+</head>
+<body>
+  <textarea class="Blue3dLight">The top and left edges of the 
+      thumb and button-face elements in the scroll bar for this 
+      element will be blue.</textarea>
+</body>
+</html>
