@@ -11,7 +11,7 @@
                     <div class="nav-collapse collapse navbar-responsive-collapse">
                         <ul class="nav pull-right">
                             <li class="dropdown activeMenu">
-                                <a href="index.php" class="activeMenu">Home   </a>
+                                <a href="index.php" class="activeMenu">Home  -change for practice- </a>
                              </li>
                             <!--
                             <li class="dropdown">
