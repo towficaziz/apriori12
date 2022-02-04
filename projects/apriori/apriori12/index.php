@@ -103,7 +103,7 @@
                     <div class="content">
 						<h1 align="center" class="featureSixHeader">アプリオリのサービス</h1> 
 						<!-- Features- 6 icons -->
-						<div id="featuresSix" style="margin-bottom:10px;">
+						<div id="featuresSix" style="margin-bottom:11px;">
 							<div class="featureSix">
 								<a href="medical_illustration.php">
 									<div class="glyph">
